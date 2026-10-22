@@ -1,0 +1,27 @@
+Camlane
+Copyright 2026 Aryan Singh and Camlane contributors
+
+This product includes software developed as part of the Camlane project
+(https://github.com/aryan0078/camlane), licensed under the Apache License,
+Version 2.0.
+
+Camlane links against or bundles the following third-party components, each
+under its own licence. See the respective project for full terms.
+
+  - openh264 (Cisco Systems) ................. BSD-2-Clause
+    H.264 is covered by patents in some jurisdictions; see README "Codec note".
+  - libopus (Xiph.Org Foundation) ............ BSD-3-Clause
+  - MediaPipe (Google LLC) ................... Apache-2.0
+  - CameraX / Android Jetpack (Google LLC) ... Apache-2.0
+  - Tauri (The Tauri Programme within The Commons Conservancy) ... MIT / Apache-2.0
+  - cpal (RustAudio) ......................... Apache-2.0
+  - ZXing (ZXing authors) ..................... Apache-2.0
+  - v4l2loopback (Vasily Levin et al.) ....... GPL-2.0 (used as a separately installed kernel module, not bundled)
+  - OBS Studio Virtual Camera (OBS Project) .. GPL-2.0 (used as a separately installed driver, not bundled)
+
+Android "ads" flavor only (the prebuilt APK published on GitHub Releases):
+
+  - Google Mobile Ads SDK and Google User Messaging Platform SDK (Google LLC)
+    Proprietary; distributed under Google's terms of service. They are NOT
+    part of the Camlane source code and are NOT included in the "foss"
+    flavor. See MONETIZATION.md and PRIVACY.md.

@@ -10,7 +10,7 @@ The download page picks the right file for your computer and always points at th
 |----------|-------|--------|
 | Android 8+, phones and tablets | `camlane-android.apk` (Google Play listing after closed testing) | stable |
 | Windows 10 and 11 | `camlane-desktop-windows-x86_64-setup.exe`, `.msi` | stable; virtual camera is experimental |
-| macOS | `camlane-desktop-macos-aarch64.dmg` (Apple silicon), `camlane-desktop-macos-x86_64.dmg` (Intel) | beta, build coming shortly: preview and audio work, virtual camera coming soon |
+| macOS | `camlane-desktop-macos-aarch64.dmg` (Apple silicon), `camlane-desktop-macos-x86_64.dmg` (Intel) | beta: preview and audio work, virtual camera coming soon; not notarised yet, so right-click the app and choose Open the first time |
 | Linux | `camlane-desktop-linux-x86_64.AppImage`, `.deb` | stable |
 | Command line | `camlane-cli-<platform>.tar.gz` / `.zip` | stable |
 

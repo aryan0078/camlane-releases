@@ -14,7 +14,7 @@ The download page picks the right file for your device and always points at the 
 | Linux | `camlane-desktop-linux-x86_64.AppImage`, `camlane-desktop-linux-x86_64.deb` | stable |
 | Command line | `camlane-cli-<platform>.tar.gz` / `.zip` | stable |
 
-Some releases also include `camlane-desktop-windows-x86_64.msi`. 0.2.0 doesn't, so use the setup installer.
+Some releases also include `camlane-desktop-windows-x86_64.msi`. 0.3.0 doesn't, so use the setup installer. The macOS files in 0.3.0 are still the 0.2.0 build; the 0.3.0 Mac build follows shortly.
 
 ## What you get
 
@@ -23,6 +23,16 @@ Some releases also include `camlane-desktop-windows-x86_64.msi`. 0.2.0 doesn't, 
 - **Auto-framing with zoom lock:** keeps your face in frame and at the same size as you move.
 - **Looks:** background blur, filters, colour adjustments and your own 3D LUTs.
 - **Low latency:** hardware video encoding. If the computer's firewall blocks the phone, the computer connects to the phone instead.
+
+## New in 0.3
+
+- **Cameras that look after themselves:** phones used as cameras reconnect after Wi-Fi drops, router or computer restarts and app updates, and restart themselves if Android closes them. The desktop warns when a phone's settings are likely to make Android close Camlane ([guide](https://camlane.live/guides/keep-running)).
+- **Much smaller recordings:** while nothing moves the phone sends a picture every 1–2 seconds, and full rate the moment something moves. Choose Smallest, Balanced or Best.
+- **Watch your cameras away from home (beta, desktop and command line):** end-to-end encrypted, no account or sign-in, and direct on the same Wi-Fi.
+- **Privacy rules:** choose activities that should never be recorded, for everyone or for chosen people: the recording is cut, or the person is blurred.
+- **IP cameras (phase 1):** add an existing RTSP camera and use it like a phone camera.
+- **Search your recordings in plain words,** on your own computer.
+- **A phone can record without a computer,** and **update notices** on every platform.
 
 ## New in 0.2
 
@@ -38,7 +48,7 @@ Some releases also include `camlane-desktop-windows-x86_64.msi`. 0.2.0 doesn't, 
 - **Mic on and off per camera,** for streaming and for recordings.
 - **Private AI, fully offline** (desktop, off by default): a people library, activities, highlights, day summaries and a natural offline voice. Nothing leaves your computer.
 
-**Coming next:** an iPhone and iPad app (beta), a phone that records with no computer, recordings kept across several of your devices, privacy rules that cut or blur what you choose, and watching your cameras away from home.
+**Coming next:** an iPhone and iPad app (beta), recordings kept across several of your devices, and full controls for phones that watch.
 
 **Google Play:** Camlane is in closed testing, and a public listing follows. Until then, use the APK from the Releases tab.
 
